@@ -22,3 +22,12 @@ function sayHello(inputName) {
         return "Hello, " + inputName + "!";
     }
 }
+
+
+function isFive(input) {
+    if (!isNaN(input)) {
+        return true;
+    } else {
+        return false;
+    }
+}
