@@ -41,3 +41,13 @@ function isEven(input){
 function isVowel(input){
     return input === 'a' || input === 'e' || input === 'i' || input === 'o' || input === 'u' || input === 'A' || input === 'E' || input === 'I' || input === 'O' || input === 'U';
 }
+
+
+function add(num1, num2) {
+
+    if (isNaN(num1) || isNaN(num2)) {
+        return NaN;
+    } else {
+        return parseInt(num1) + parseInt(num2);
+    }
+}
