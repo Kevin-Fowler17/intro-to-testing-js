@@ -31,3 +31,13 @@ function isFive(input) {
         return false;
     }
 }
+
+
+function isEven(input){
+    return input % 2 === 0 && input !== false;
+}
+
+
+function isVowel(input){
+    return input === 'a' || input === 'e' || input === 'i' || input === 'o' || input === 'u' || input === 'A' || input === 'E' || input === 'I' || input === 'O' || input === 'U';
+}
